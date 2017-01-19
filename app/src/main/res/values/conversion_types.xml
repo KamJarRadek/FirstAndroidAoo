@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversion_types">
+        <item>wat</item>
+        <item>kwat</item>
+        <item>hp</item>
+        <item>btuh</item>
+        <item>btum</item>
+        <item>buts</item>
+
+    </string-array>
+</resources>

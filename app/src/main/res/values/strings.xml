@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">docelowa1</string>
+    <string name="enter_name_text_view">enter your name</string>
+    <string name="calling_activity_message">calling activity was</string>
+    <string name="get_the_name_text_view">Go get the name</string>
+    <string name="users_name_sent_back">the users name was</string>
+    <string name="botton_back_to_first_screen">Back</string>
+    <string name="default_kw_value">default_kw_value</string>
+</resources>

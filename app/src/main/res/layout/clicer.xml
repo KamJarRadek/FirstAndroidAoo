@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+ android:orientation="vertical"
+    android:gravity="left"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#005aa9"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#3e2323"
+            android:gravity="center"
+            android:id="@+id/clickerText"
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Reset"
+        android:id="@+id/reset_button"
+        android:layout_alignParentStart="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clic"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/counting_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:gravity="right"/>
+</LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:text="Go back"
+    android:id="@+id/goBack"/>
+
+</LinearLayout>
+
+
